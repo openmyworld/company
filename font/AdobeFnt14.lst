@@ -1,0 +1,50 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\PSD Traning\AllGrow Labo\Font\icons.eot
+FileModTime:1584998110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\PSD Traning\AllGrow Labo\Font\icons.svg
+FileModTime:1584998110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:icons
+FamilyName:icons
+StyleName:Regular
+FullName:icons
+MenuName:icons
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\PSD Traning\AllGrow Labo\Font\icons.ttf
+DataFormat:sfntData
+FileLength:5340
+FileModTime:1584998110
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\PSD Traning\AllGrow Labo\Font\icons.woff
+FileModTime:1584998110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\PSD Traning\AllGrow Labo\Font\icons.woff2
+FileModTime:1584998110
+%EndFont
+

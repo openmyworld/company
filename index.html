@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Company Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/mmenu.css" />
+    <link rel="stylesheet" href="css/mburger.css" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-old.min.js"></script>
+    <script src="js/svg-inject.min.js"></script>
+    <script src="js/jquery.ddslick.min.js"></script>
+  </head>
+  <body>
+    <div class="my-page">
+      <header class="header">
+        <div class="container header__container">
+          <figure class="logo">
+            <a href="javascript:void(0)" class="logo__link"><img src="img/logo-png.png" alt="logo" class="logo__src"></a>
+          </figure>
+          <a href="#menu-responsive" class="menu__fire mburger mburger--tornado">
+            <b></b>
+            <b></b>
+            <b></b>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__items">
+                <a href="javascript:void(0)" class="menu__link">
+                  <span class="menu__items-en">Service</span>
+                  <span class="menu__items-jp">事業内容</span>
+                </a>
+              </li>
+              <li class="menu__items">
+                <a href="javascript:void(0)" class="menu__link">
+                  <span class="menu__items-en">About us</span>
+                  <span class="menu__items-jp">会社概要</span>
+                </a>
+              </li>
+              <li class="menu__items">
+                <a href="javascript:void(0)" class="menu__link">
+                  <span class="menu__items-en">Works</span>
+                  <span class="menu__items-jp">制作実績</span>
+                </a>
+              </li>
+              <li class="menu__items">
+                <a href="javascript:void(0)" class="menu__link">
+                  <span class="menu__items-en">Staff</span>
+                  <span class="menu__items-jp">スタッフ紹介</span>
+                </a>
+              </li>
+              <li class="menu__items">
+                <a href="javascript:void(0)" class="menu__link">
+                  <span class="menu__items-en">Recruit</span>
+                  <span class="menu__items-jp">採用情報</span>
+                </a>
+              </li>
+              <li class="menu__items">
+                <a href="javascript:void(0)" class="menu__link">
+                  <span class="menu__items-en">Contact</span>
+                  <span class="menu__items-jp">お問い合わせ</span>
+                </a>
+              </li>
+              <li class="menu__items">
+                <!-- <div id="language"></div> -->
+                <div class="language">
+                  <span class="language__span">
+                    <img src="img/flag-jp.jpg" class="language__span-image" alt="Japan">
+                  </span>
+                  <ul class="language__list">
+                    <li class="language__item">
+                      <a href="javascript:void(0)" class="language__link">
+                        <img src="img/flag-jp.jpg" alt="Japan">
+                      </a>
+                    </li>
+                    <li class="language__item">
+                      <a href="javascript:void(0)" class="language__link">
+                        <img src="img/flag-us.jpg" alt="US">
+                      </a>
+                    </li>
+                    <li class="language__item">
+                      <a href="javascript:void(0)" class="language__link">
+                        <img src="img/flag-vn.jpg" alt="Vietnam">
+                      </a>
+                    </li>
+                  </ul>
+                  </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="hero">
+        <div class="hero__text">
+          <h2 class="hero__text-jp">次の一手はベトナム</h2>
+          <h2 class="hero__text-en">The next only way is <span class="hero__text-en_big">Vietnam</span></h2>
+        </div>
+        <div class="hero__button">
+          <a href="javascript:void(0)" class="hero__button-link">
+            <span class="hero__button-text">Scroll down</span>
+            <span class="hero__button-sign"></span>
+          </a>
+        </div>
+      </div>
+      <div class="service">
+        <!-- <figure class="service__graph">
+          <img src="img/graph.svg" class="icon__graph" onload="SVGInject(this)" alt="">
+          <img src="img/phone.svg" class="icon__phone" onload="SVGInject(this)" alt="">
+        </figure> -->
+        <figure class="service__heading">
+          <img src="img/service.png" alt="service" class="service__heading-image">
+        </figure>
+        <div class="container">
+          <ul class="service__list">
+            <li class="service__items">
+              <a href="javascript:void(0)" class="service__link">
+                <figure class="icon">
+                  <img src="img/lab.svg" onload="SVGInject(this)" alt="lab icon" class="icon__lab">
+                </figure>
+                <div class="service-title">
+                  <h2 class="service-title_en">Laboratory development</h2>
+                  <h2 class="service-title_jp">ラボ型開発</h2>
+                </div>
+              </a>
+            </li>
+            <li class="service__items">
+              <a href="javascript:void(0)" class="service__link">
+                <figure class="icon">
+                  <img src="img/game.svg" onload="SVGInject(this)" alt="game icon" class="icon__game">
+                </figure>
+                <div class="service-title">
+                  <h2 class="service-title_en">Game development</h2>
+                  <h2 class="service-title_jp">スマートフォンゲーム開発</h2>
+                </div>
+              </a>
+            </li>
+            <li class="service__items">
+              <a href="javascript:void(0)" class="service__link">
+                <figure class="icon">
+                  <img src="img/web-icon.png" alt="web icon" class="icon__web">
+                </figure>
+                <div class="service-title">
+                  <h2 class="service-title_en">WEB site creation</h2>
+                  <h2 class="service-title_jp">WEBサイト制作</h2>
+                </div>
+              </a>
+            </li>
+            <li class="service__items">
+              <a href="javascript:void(0)" class="service__link">
+                <figure class="icon">
+                  <img src="img/system-icon.png" alt="system icon" class="icon__system">
+                </figure>
+                <div class="service-title">
+                  <h2 class="service-title_en">System development</h2>
+                  <h2 class="service-title_jp">システム開発</h2>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <figure class="service__computer">
+          <img src="img/computer.svg" class="icon__computer" onload="SVGInject(this)" alt="computer">
+          <img src="img/light.svg" class="icon__light" onload="SVGInject(this)" alt="light">
+          <p class="service__background-text">
+              We are aiming for <br>
+              IT business support companies <br>
+              of Asia No.1.
+          </p>
+        </figure> -->
+      </div>
+      <div class="works">
+        <div class="works__heading">
+          <img src="img/work.png" alt="" class="works__heading-img">
+        </div>
+        <div class="container">
+          <ul class="works__list">
+            <li class="works__items">
+              <a href="javascript:void(0)" class="works__link">
+                <figure class="works__image">
+                  <img src="img/work-1.png" alt="" class="works__image-src">
+                </figure>
+                <div class="works__summary">
+                  <h2 class="works__title">遊気創健美倶楽部 様</h2>
+                  <p class="works__text">自社顧客管理システムの開発</p>
+                </div>
+              </a>
+            </li>
+            <li class="works__items">
+              <a href="javascript:void(0)" class="works__link">
+                <figure class="works__image">
+                  <img src="img/work-2.jpg" alt="" class="works__image-src">
+                </figure>
+                <div class="works__summary">
+                  <h2 class="works__title">株式会社赤とんぼ 様</h2>
+                  <p class="works__text">自社ウェブサイトのリニューアル、自社日本向けECサイトの開発、保守・運用</p>
+                </div>
+              </a>
+            </li>
+            <li class="works__items">
+              <a href="javascript:void(0)" class="works__link">
+                <figure class="works__image">
+                  <img src="img/work-3.jpg" alt="" class="works__image-src">
+                </figure>
+                <div class="works__summary">
+                  <h2 class="works__title">ラジンジャパン 様</h2>
+                  <p class="works__text">ECサイトの開発、保守・運用</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="works__more">
+            <a href="javascript:void(0)" class="works__more-button">
+              <h2 class="works__more-title">See more</h2>
+              <p class="works__more-text">制作実績を見る</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="information">
+        <figure class="information__heading">
+          <img src="img/information.png" alt="" class="information__heading-img">
+        </figure>
+        <div class="container information__container">
+          <div class="press">
+            <h2 class="press__title">Press release</h2>
+            <ul class="press__list">
+              <li class="press__item">
+                <a href="javascript:void(0)" class="press__link">
+                  <time class="press__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="press__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="press__item">
+                <a href="javascript:void(0)" class="press__link">
+                  <time class="press__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="press__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="press__item">
+                <a href="javascript:void(0)" class="press__link">
+                  <time class="press__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="press__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="press__item">
+                <a href="javascript:void(0)" class="press__link">
+                  <time class="press__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="press__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="press__item">
+                <a href="javascript:void(0)" class="press__link">
+                  <time class="press__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="press__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="news">
+            <h2 class="news__title">News</h2>
+            <ul class="news__list">
+              <li class="news__item">
+                <a href="javascript:void(0)" class="news__link">
+                  <time class="news__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="news__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="javascript:void(0)" class="news__link">
+                  <time class="news__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="news__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="javascript:void(0)" class="news__link">
+                  <time class="news__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="news__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="javascript:void(0)" class="news__link">
+                  <time class="news__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="news__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="javascript:void(0)" class="news__link">
+                  <time class="news__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="news__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="blog">
+            <h2 class="blog__title">Labo Blog</h2>
+            <ul class="blog__list">
+              <li class="blog__item">
+                <a href="javascript:void(0)" class="blog__link">
+                  <time class="blog__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="blog__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="blog__item">
+                <a href="javascript:void(0)" class="blog__link">
+                  <time class="blog__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="blog__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="blog__item">
+                <a href="javascript:void(0)" class="blog__link">
+                  <time class="blog__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="blog__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="blog__item">
+                <a href="javascript:void(0)" class="blog__link">
+                  <time class="blog__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="blog__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+              <li class="blog__item">
+                <a href="javascript:void(0)" class="blog__link">
+                  <time class="blog__time" datetime="2015-01-22">2015年01月22日</time>
+                  <p class="blog__text">ラボ型オフショア開発サービス　特別キャンペーンのお知らせ</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="action">
+        <div class="container action__container">
+          <a href="javascript:void(0)" class="email-text">
+            <p class="email-text__big">Send e-mail</p>
+            <p class="email-text__small">お気軽にお問い合わせください</p>
+          </a>
+          <a href="javascript:void(0)" class="call-text">
+            <p class="call-text__small">お電話でのお問い合わせ</p>
+            <p class="call-text__big">+84XX XXXX XXXX</p>
+          </a>
+        </div>
+      </div>
+      <div class="maps">
+        <iframe class="maps__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.518355028342!2d106.70214571419365!3d10.771554392324871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f12f48e5bc5%3A0x153cb3d7f96ea665!2zVMOyYSBOaMOgIEJJVEVYQ08!5e0!3m2!1svi!2s!4v1584944670125!5m2!1svi!2s" allowfullscreen=""></iframe>
+      </div>
+      <footer class="footer">
+        <div class="container footer__sumary">
+          <p class="footer__text">Copyright &copy; Company Co.,Ltd - Company offshore development partner. All rights reserved.</p>
+          <ul class="footer__list">
+            <li class="footer__items">
+              <a href="javascript:void(0)" class="footer__link">サイトマップ</a>
+            </li>
+            <li class="footer__items">
+              <a href="javascript:void(0)" class="footer__link">プライバシーポリシー</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <nav class="menu-responsive" id="menu-responsive">
+      <ul class="menu__list menu__list_responsive">
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <span class="menu__items-en">Service</span>
+            <span class="menu__items-jp">事業内容</span>
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <span class="menu__items-en">About us</span>
+            <span class="menu__items-jp">会社概要</span>
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <span class="menu__items-en">Works</span>
+            <span class="menu__items-jp">制作実績</span>
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <span class="menu__items-en">Staff</span>
+            <span class="menu__items-jp">スタッフ紹介</span>
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <span class="menu__items-en">Recruit</span>
+            <span class="menu__items-jp">採用情報</span>
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <span class="menu__items-en">Contact</span>
+            <span class="menu__items-jp">お問い合わせ</span>
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive menu__divider">
+          Language
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <img src="img/flag-jp.jpg" alt="">
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <img src="img/flag-us.jpg" alt="">
+          </a>
+        </li>
+        <li class="menu__items menu__items_responsive">
+          <a href="javascript:void(0)" class="menu__link">
+            <img src="img/flag-vn.jpg" alt="">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="https://mmenujs.com/mmenu/mmenu.polyfills.js"></script>
+    <script src="js/mmenu.js"></script>
+    <script src="js/user.js"></script>
+    
+  </body>
+</html>
